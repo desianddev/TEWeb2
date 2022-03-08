@@ -1,0 +1,97 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="fix-columns fix-second-clm">
+        <h4 class="column-heading">List of Games</h4>
+        <form>
+          <input type="text" class="form-control search-fld" placeholder="Search Games" value="">
+          <ul class="list-style">
+            <li><a href="#" class="">First item</a></li>
+            <li><a href="#" class="">Second item</a></li>
+            <li><a href="#" class="">Third item</a></li>
+          </ul>
+        </form>
+      </div>
+      <div class="fix-columns fix-third-clm">
+
+
+        <form class="form-max-width">
+          <div class="row">
+            <p class="column-heading">Game Settings <a href="#" class="pull-right" data-toggle="modal"
+              data-target="#exampleModal">Add Game <i class="fa fa-plus-circle" aria-hidden="true"></i></a></p>
+          </div>
+
+          <div class="row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Company" value="">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group">
+              <label>Description</label>
+              <textarea rows="5" class="form-control" placeholder="Here can be your description"
+                value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group">
+              <label class="sub-heading">Game Category</label>
+              <select class="form-control" id="sel1">
+                <option value="Select Category" selected>Select Category</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="pdd-bottom-20 pdd-top-20">
+              <div class="col">
+                Active for Users
+                <label class="el-switch pull-right">
+                  <input type="checkbox" name="switch">
+                  <span class="el-switch-style"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <button type="reset" class="btn btn-danger btn-fill ">Cancel</button>
+            <button type="submit" class="btn btn-info btn-fill" style="margin-left: 5px;">Update</button>
+            <div class="clearfix"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

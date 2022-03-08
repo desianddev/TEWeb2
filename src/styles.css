@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*List styling */
+ul.list-group{
+    list-style: none;
+}
+
+ul.list-group li, ul.list-group li a{
+    background-color: transparent;
+}
